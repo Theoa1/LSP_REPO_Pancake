@@ -10,7 +10,7 @@ public class WordCounting {
 
     public static void main(String[] args) {
         // Input relative path
-        String filePath = "src/org/howard/edu/lsp/assignment2/word.txt";
+        String filePath = "word.txt";
         
         // Store word counts while maintaining insertion order - LinkedHashMap
         Map<String, Integer> wordCounts = new LinkedHashMap<>();
